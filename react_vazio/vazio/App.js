@@ -4,10 +4,10 @@ import { StyleSheet, Text, View, ScrollView, TextInput } from 'react-native';
 export default function App() {
   return (
     <ScrollView>
-      <View style={styles.container}>
+      <View style={styles.titulo}>
         <Text>Teste de tela</Text>
       </View>
-      <View style={styles.cont_texto}>
+      <ScrollView style={styles.cont_texto}>
         <Text>
           O impacto das redes sociais na vida dos jovens
 
@@ -32,7 +32,7 @@ export default function App() {
           Portanto, a leitura desempenha um papel fundamental na formação do cidadão, pois promove conhecimento, cultura e senso crítico. Por isso, é importante que escolas, famílias e governos incentivem essa prática desde a infância, garantindo que mais pessoas tenham acesso aos benefícios que ela
 
         </Text>
-      </View>
+      </ScrollView>
       <View>
         <TextInput style={{height:40,borderColor: "blue",borderWidth: 2, width: 200,}}>
 
@@ -43,15 +43,19 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  titulo: {
     flex: 1,
     margintop:50,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    textAlign: 'center',
   },
   cont_texto: {
-    height: 1250,
+    margintop:50,
+    height: 500,
+    width: 300,
     backgroundColor: "red",
+    alignSelf: 'center',
   },
 });
