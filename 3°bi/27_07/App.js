@@ -30,7 +30,7 @@ export default function App() {
       genero: 'Animação',
       nota: '8.5',
       imagem:
-        'https://image.tmdb.org/t/p/w500/2e853FDVSIso6000T4uN7u3g6X.jpg',
+        'https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/34cc591f-ae1b-44ed-bf8a-c4bbef84d588/compose?aspectRatio=1.78&format=webp&width=1200',
       descricao:
         'Simba precisa enfrentar desafios e descobrir seu verdadeiro lugar como rei.',
     },
@@ -86,7 +86,7 @@ export default function App() {
 
         {/* CABEÇALHO */}
         <View style={styles.header}>
-          <Text style={styles.logo}>CINEFLIX</Text>
+          <Text style={styles.log}>CINEFLIX</Text>
 
           <Text style={styles.titulo}>
             Encontre seu próximo filme 🍿
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
 
-  logo: {
+  log: {
     color: '#E50914',
     fontSize: 28,
     fontWeight: 'bold',
