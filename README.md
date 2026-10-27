@@ -1,5 +1,7 @@
 # PAM-I-Manha
 
+Bryan Braggion
+
 react_exemplo
 
 npx create-expo-app nome_do_app
